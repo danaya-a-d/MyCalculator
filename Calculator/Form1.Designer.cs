@@ -58,6 +58,7 @@
             // 
             // seven
             // 
+            this.seven.AccessibleName = "seven";
             this.seven.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seven.Location = new System.Drawing.Point(37, 133);
             this.seven.Name = "seven";
@@ -69,6 +70,7 @@
             // 
             // eight
             // 
+            this.eight.AccessibleName = "eight";
             this.eight.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eight.Location = new System.Drawing.Point(88, 133);
             this.eight.Name = "eight";
@@ -80,6 +82,7 @@
             // 
             // nine
             // 
+            this.nine.AccessibleName = "nine";
             this.nine.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nine.Location = new System.Drawing.Point(139, 133);
             this.nine.Name = "nine";
@@ -91,6 +94,7 @@
             // 
             // division
             // 
+            this.division.AccessibleName = "division";
             this.division.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.division.Location = new System.Drawing.Point(191, 82);
             this.division.Name = "division";
@@ -102,6 +106,7 @@
             // 
             // ce
             // 
+            this.ce.AccessibleName = "ce";
             this.ce.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ce.Location = new System.Drawing.Point(37, 82);
             this.ce.Name = "ce";
@@ -113,6 +118,7 @@
             // 
             // c
             // 
+            this.c.AccessibleName = "c";
             this.c.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c.Location = new System.Drawing.Point(89, 82);
             this.c.Name = "c";
@@ -124,6 +130,7 @@
             // 
             // multiplication
             // 
+            this.multiplication.AccessibleName = "multiplication";
             this.multiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.multiplication.Location = new System.Drawing.Point(191, 133);
             this.multiplication.Name = "multiplication";
@@ -135,6 +142,7 @@
             // 
             // six
             // 
+            this.six.AccessibleName = "six";
             this.six.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.six.Location = new System.Drawing.Point(139, 184);
             this.six.Name = "six";
@@ -168,6 +176,7 @@
             // 
             // minus
             // 
+            this.minus.AccessibleName = "minus";
             this.minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minus.Location = new System.Drawing.Point(191, 184);
             this.minus.Name = "minus";
@@ -179,6 +188,7 @@
             // 
             // three
             // 
+            this.three.AccessibleName ="three";
             this.three.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.three.Location = new System.Drawing.Point(140, 235);
             this.three.Name = "three";
@@ -190,6 +200,7 @@
             // 
             // two
             // 
+            this.two.AccessibleName = "two";
             this.two.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.two.Location = new System.Drawing.Point(88, 235);
             this.two.Name = "two";
@@ -201,6 +212,7 @@
             // 
             // one
             // 
+            this.one.AccessibleName = "one";
             this.one.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.one.Location = new System.Drawing.Point(37, 235);
             this.one.Name = "one";
@@ -212,6 +224,7 @@
             // 
             // equally
             // 
+            this.equally.AccessibleName = "equally";
             this.equally.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equally.Location = new System.Drawing.Point(140, 82);
             this.equally.Name = "equally";
@@ -223,6 +236,7 @@
             // 
             // plus
             // 
+            this.plus.AccessibleName = "plus";
             this.plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plus.Location = new System.Drawing.Point(191, 235);
             this.plus.Name = "plus";
@@ -234,6 +248,7 @@
             // 
             // point
             // 
+            this.point.AccessibleName = "point";
             this.point.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.point.Location = new System.Drawing.Point(37, 284);
             this.point.Name = "point";
@@ -245,6 +260,7 @@
             // 
             // zero
             // 
+            this.zero.AccessibleName = "zero";
             this.zero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zero.Location = new System.Drawing.Point(87, 284);
             this.zero.Name = "zero";
@@ -254,74 +270,9 @@
             this.zero.UseVisualStyleBackColor = true;
             this.zero.Click += new System.EventHandler(this.button_click);
             // 
-            // percent
-            // 
-            this.percent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percent.Location = new System.Drawing.Point(191, 284);
-            this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(45, 47);
-            this.percent.TabIndex = 22;
-            this.percent.Text = "%";
-            this.percent.UseVisualStyleBackColor = true;
-            this.percent.Click += new System.EventHandler(this.operator_click);
-            // 
-            // sin
-            // 
-            this.sin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sin.Location = new System.Drawing.Point(37, 335);
-            this.sin.Name = "sin";
-            this.sin.Size = new System.Drawing.Size(45, 45);
-            this.sin.TabIndex = 23;
-            this.sin.Text = "sin";
-            this.sin.UseVisualStyleBackColor = true;
-            this.sin.Click += new System.EventHandler(this.operator_click);
-            // 
-            // tan
-            // 
-            this.tan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tan.Location = new System.Drawing.Point(139, 335);
-            this.tan.Name = "tan";
-            this.tan.Size = new System.Drawing.Size(46, 45);
-            this.tan.TabIndex = 25;
-            this.tan.Text = "tan";
-            this.tan.UseVisualStyleBackColor = true;
-            this.tan.Click += new System.EventHandler(this.operator_click);
-            // 
-            // log
-            // 
-            this.log.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.log.Location = new System.Drawing.Point(191, 335);
-            this.log.Name = "log";
-            this.log.Size = new System.Drawing.Size(45, 45);
-            this.log.TabIndex = 26;
-            this.log.Text = "log";
-            this.log.UseVisualStyleBackColor = true;
-            this.log.Click += new System.EventHandler(this.operator_click);
-            // 
-            // cos
-            // 
-            this.cos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cos.Location = new System.Drawing.Point(89, 335);
-            this.cos.Name = "cos";
-            this.cos.Size = new System.Drawing.Size(44, 45);
-            this.cos.TabIndex = 27;
-            this.cos.Text = "cos";
-            this.cos.UseVisualStyleBackColor = true;
-            this.cos.Click += new System.EventHandler(this.operator_click);
-            // 
-            // root
-            // 
-            this.root.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.root.Location = new System.Drawing.Point(138, 286);
-            this.root.Name = "root";
-            this.root.Size = new System.Drawing.Size(47, 45);
-            this.root.TabIndex = 28;
-            this.root.Text = "√";
-            this.root.UseVisualStyleBackColor = true;
-            this.root.Click += new System.EventHandler(this.operator_click);
-            // 
             // textBox_Result
             // 
+            this.AccessibleName = "Display";
             this.textBox_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Result.Location = new System.Drawing.Point(12, 32);
             this.textBox_Result.Name = "textBox_Result";
@@ -340,6 +291,78 @@
             this.labelCurrentOperation.Name = "labelCurrentOperation";
             this.labelCurrentOperation.Size = new System.Drawing.Size(0, 24);
             this.labelCurrentOperation.TabIndex = 21;
+            // 
+            // percent
+            // 
+            this.percent.AccessibleName = "percent";
+            this.percent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percent.Location = new System.Drawing.Point(191, 284);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(45, 47);
+            this.percent.TabIndex = 22;
+            this.percent.Text = "%";
+            this.percent.UseVisualStyleBackColor = true;
+            this.percent.Click += new System.EventHandler(this.operator_click);
+            // 
+            // sin
+            // 
+            this.sin.AccessibleName = "sin";
+            this.sin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sin.Location = new System.Drawing.Point(37, 335);
+            this.sin.Name = "sin";
+            this.sin.Size = new System.Drawing.Size(45, 45);
+            this.sin.TabIndex = 23;
+            this.sin.Text = "sin";
+            this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.operator_click);
+            // 
+            // tan
+            // 
+            this.tan.AccessibleName = "tan";
+            this.tan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tan.Location = new System.Drawing.Point(139, 335);
+            this.tan.Name = "tan";
+            this.tan.Size = new System.Drawing.Size(46, 45);
+            this.tan.TabIndex = 25;
+            this.tan.Text = "tan";
+            this.tan.UseVisualStyleBackColor = true;
+            this.tan.Click += new System.EventHandler(this.operator_click);
+            // 
+            // log
+            // 
+            this.log.AccessibleName = "log";
+            this.log.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.log.Location = new System.Drawing.Point(191, 335);
+            this.log.Name = "log";
+            this.log.Size = new System.Drawing.Size(45, 45);
+            this.log.TabIndex = 26;
+            this.log.Text = "log";
+            this.log.UseVisualStyleBackColor = true;
+            this.log.Click += new System.EventHandler(this.operator_click);
+            // 
+            // cos
+            // 
+            this.cos.AccessibleName = "cos";
+            this.cos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cos.Location = new System.Drawing.Point(89, 335);
+            this.cos.Name = "cos";
+            this.cos.Size = new System.Drawing.Size(44, 45);
+            this.cos.TabIndex = 27;
+            this.cos.Text = "cos";
+            this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.operator_click);
+            // 
+            // root
+            // 
+            this.root.AccessibleName = "root";
+            this.root.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.root.Location = new System.Drawing.Point(138, 286);
+            this.root.Name = "root";
+            this.root.Size = new System.Drawing.Size(47, 45);
+            this.root.TabIndex = 28;
+            this.root.Text = "√";
+            this.root.UseVisualStyleBackColor = true;
+            this.root.Click += new System.EventHandler(this.operator_click);
             // 
             // Form1
             // 
